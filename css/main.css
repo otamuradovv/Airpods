@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+    background: #282828;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.nav__list {
+    display: flex;
+}
+.nav__link {
+    padding: 20px 30px 21px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 24px;
+    left: 532px;
+    top: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.nav__logo {
+    padding: 6px 30px 6px 245px;
+    width: 100px;
+    height: 53px;
+    left: 245px;
+    top: 6px;
+}
+.lagatip {
+    padding: 6px 30px 6px ;
+    width: 100px;
+    height: 53px;
+
+}
+.nav_link {
+    padding: 22px 25px 23px ;
+    
+    left: 80.62%;
+    right: 18.12%;
+    top: 0.84%;
+    bottom: 98.39%;
+    color: #FFFFFF;
+}
+.nav_list {
+    display: flex;
+    padding: 0 248px 0 0;
+}
+.header {
+    width: 100%;
+    height: 700px;
+    background: url(../img/Header.png);
+}
+.header_content {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    height: 80vh;
+    width: 663px;
+    margin: auto;
+    
+}
+.conteiner {
+    width: 663px;
+    height: 163px;
+    left: 468px;
+    top: 269px;    
+}
+.title {
+   color: #FFFFFF;
+   width: 663px;
+   height: 75px;
+   left: 468px;
+   top: 269px;
+   font-weight: 400;
+   font-size: 100px;
+   line-height: 75px;
+   padding: 38px 0 38px;
+}
+.button {
+    color: #171718;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 382px;
+    line-height: 24px;
+    background: #FFFFFF;
+    text-align:center;
+    border-radius: 10px;
+    padding: 5px 7px;
+    margin: 200px ;
+}
+.cards__card {
+  background: #151515;
+   display: flex;
+
+
+}
+.img {
+    width: 552px;
+    height: 335px;
+    left: 815px;
+    top: 730px;
+    padding: 24px 233px 200px 30px;
+}
+.img2 {
+    width: 457px;
+    height: 408px;
+    left: 295px;
+    top: 1115px;
+    padding: 0 63px 0px 295px;
+
+}
+.text {
+    width: 538px;
+    height: 135px;
+    left: 247px;
+    top: 763px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 57px 30px 217px 147px;
+}
+.text2 {
+    width: 540px;
+    height: 107px;
+    left: 815px;
+    top: 1265px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 200px 245px 0 63px;
+}
+.cards_card {
+    background: #151515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards_card-img {
+    width: 268px;
+    height: 375px;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    padding: 50px 86px 79px 88px;
+}
+.cards_card-img::after {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background: #C4C4C4;
+}
+.cards_card-img::before {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background: #C4C4C4;
+}
+.tex {
+    width: 333px;
+    height: 120px;
+    left: 245px;
+    top: 1718px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 195px 88px 204px 245px;
+}
+.tex2 {
+    width: 333px;
+    height: 144px;
+    left: 1020px;
+    top: 1706px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 183px 247px 177px 86px;
+}
+.btn {
+    width: 161px;
+    height: 34px;
+    left: 292px;
+    top: 2290px;
+    background: #151515;
+    padding: 7px 57px;
+}
+.iphone__card-btn {
+    width: 47px;
+    height: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.iphone {
+    background: #151515;
+}
+.container {
+    
+}
+.iphone__cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 55px 0;
+}
+.iphone__card {
+    max-width: 255px;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    
+}
+.nav__conteiner {
+    background: #282828;
+    width: 100%;
+    height: 215px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__listt {
+    display: flex;
+    padding: 95px 270px 95px 0px;
+}
+.nav_listt {
+    display: flex;
+    padding: 0 248px 0 270px;
+} 
+.lagatip {
+    width: 100px;
+    height: 53px;
+    text-align: center;
+}
+.nav__itemm {
+    
+}
